@@ -32,4 +32,4 @@ jobs:
           script: |
             sudo apt-get -y update
             cd home
-            sudo mv -f * /var/www/html
+            sudo rsync -azr * /var/www/html
