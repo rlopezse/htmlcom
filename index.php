@@ -15,7 +15,7 @@
     <meta name="description" content="Ronald's Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body
+<body>
     <?php echo "hola mundo"; ?>
     <h1>PHP Test</h1>
     <script src="js/functions.js"></script>
