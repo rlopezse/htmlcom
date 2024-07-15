@@ -9,4 +9,14 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #ababab;
+    }
 }

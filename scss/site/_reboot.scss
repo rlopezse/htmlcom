@@ -1,114 +1,115 @@
 *,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
 
-body {
-  font-size: 16px;
-  font-family: sans-serif;
-  color: #000;
-  line-height: 1.2;
-}
+    body {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        color: #000;
+        line-height: 1.2;
+    }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-small {
-  font-size: inherit;
-  font-weight: inherit;
-}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    small {
+        font-size: inherit;
+        font-weight: inherit;
+    }
 
-em, 
-strong,
-b { 
-    font-style: normal;
-    font-weight: bold;
-}
+    em, 
+    strong,
+    b { 
+        font-style: normal;
+        font-weight: bold;
+    }
 
-a {
-    text-decoration: none;
-    &:hover { text-decoration: none; }
-}
+    a {
+        text-decoration: none;
+        &:hover { text-decoration: none; }
+    }
 
-mark { 
-  background: transparent;
-}
+    mark { 
+        background: transparent;
+    }
 
-input {
-  &:focus {
-    outline: none;
-    box-shadow: 0;
-  }
+    input {
+        &:focus {
+            outline: none;
+            box-shadow: 0;
+        }
 
-  &::placeholder {
-    opacity: 1;
-  }
-}
+        &::placeholder {
+            opacity: 1;
+        }
+    }
 
-fieldset { 
-  border-width: 0;
-}
+    fieldset { 
+        border-width: 0;
+    }
 
-button {
-  background: transparent;
-  border-width: 0;
-  cursor: pointer;
+    button {
+        background: transparent;
+        border-width: 0;
+        cursor: pointer;
 
-  // &:hover {
-  //   background: transparent;
-  //   border: 0;
-  // }
+        // &:hover {
+            //   background: transparent;
+            //   border: 0;
+        // }
 
-  &:active {
-    color: inherit;
-  }
+        &:active {
+            color: inherit;
+        }
 
-  &:focus {
-    outline: none;
-  }
+        &:focus {
+            outline: none;
+        }
 
-  &:required {
-    box-shadow: none;
-  }
-}
+        &:required {
+            box-shadow: none;
+        }
+    }
 
-ul, 
-ol {
-  list-style: none;
-}
+    ul, 
+    ol {
+        list-style: none;
+    }
 
-label,
-// img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
-  display: block;
-}
+    label,
+    // img,
+    svg,
+    video,
+    canvas,
+    audio,
+    iframe,
+    embed,
+    object {
+        display: block;
+    }
 
-table {
-  border-collapse: collapse;
-}
+    table {
+        border-collapse: collapse;
+    }
 
-th {
-  text-align: inherit;
-}
+    th {
+        text-align: inherit;
+    }
 
-//temporal
-span {
-  vertical-align: unset;
-}
+    //temporal
+    span {
+        vertical-align: unset;
+    }
 
-[hidden] {
- display:none!important;
-}
+    [hidden] {
+        display:none!important;
+    }
 
