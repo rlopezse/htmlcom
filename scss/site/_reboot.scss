@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #000;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+em, 
+strong,
+b { 
+    font-style: normal;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    &:hover { text-decoration: none; }
+}
+
+mark { 
+  background: transparent;
+}
+
+input {
+  &:focus {
+    outline: none;
+    box-shadow: 0;
+  }
+
+  &::placeholder {
+    opacity: 1;
+  }
+}
+
+fieldset { 
+  border-width: 0;
+}
+
+button {
+  background: transparent;
+  border-width: 0;
+  cursor: pointer;
+
+  // &:hover {
+  //   background: transparent;
+  //   border: 0;
+  // }
+
+  &:active {
+    color: inherit;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:required {
+    box-shadow: none;
+  }
+}
+
+ul, 
+ol {
+  list-style: none;
+}
+
+label,
+// img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: inherit;
+}
+
+//temporal
+span {
+  vertical-align: unset;
+}
+
+[hidden] {
+ display:none!important;
+}
+

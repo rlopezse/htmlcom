@@ -1,1 +1,1 @@
-console.log('functions.js loaded');
+console.log('lo mejor está por venir');

@@ -7,17 +7,18 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-9R5WH6HP4K');
     </script>
     <meta charset="UTF-8">
     <title>Ronald's Portfolio</title>
     <meta name="description" content="Ronald's Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bundle.min.css">
 </head>
 <body>
-    <?php echo "hola mundo"; ?>
-    <h1>PHP Test</h1>
+    <div class="rz-container">
+        <h1>Ronald Portfolio</h1>
+    </div>
     <script src="js/functions.js"></script>
 </body>
 </html>
